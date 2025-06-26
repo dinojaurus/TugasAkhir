@@ -188,8 +188,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     };
 
-    // --- Fungsionalitas Inti --- //
-    // Ini adalah komentar, jadi terjemahan opsional: Fungsionalitas Inti
 
     const hamburger = document.querySelector('.hamburger-menu');
     const navLinks = document.querySelector('.nav-links');
@@ -206,7 +204,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // Alihkan Akordion
     const accordionContainer = document.querySelector('.accordion-container');
     if (accordionContainer) {
         accordionContainer.addEventListener('click', (event) => {
@@ -238,7 +235,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    // Validasi Formulir Dasar (untuk semua formulir dengan kolom wajib)
+
     document.querySelectorAll('form').forEach(form => {
         form.addEventListener('submit', (e) => {
             e.preventDefault();
@@ -306,7 +303,7 @@ document.addEventListener('DOMContentLoaded', () => {
             document.getElementById('discover-headline').textContent = section.title;
             document.getElementById('discover-content').innerHTML = section.content;
         } else {
-            // Tangani kasus di mana bagian tidak ditemukan
+
             document.getElementById('discover-headline').textContent = "Bagian Tidak Ditemukan";
             document.getElementById('discover-content').innerHTML = "<p>Maaf, bagian yang Anda cari tidak dapat ditemukan.</p>";
             document.getElementById('discover-image').src = "castle.jpg";
