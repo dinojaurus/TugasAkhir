@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fan Art - Dunia Sihir Harry Potter</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="header-top">
+                    <a href="index.html" class="logo">Harry Potter</a>
+                    <div class="hamburger-menu">
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                    </div>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Beranda</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="discover.html">Discover</a></li>
+                    <li><a href="fact-files1.html">Fact Files</a></li>
+                    <li><a href="fan-art.html" class="active">Fan Art</a></li>
+                    <li><a href="about1.html">About Us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <h1>Galeri Fan Art</h1>
+                <p>Jelajahi karya seni menakjubkan yang dibuat oleh para penggemar di seluruh dunia.</p>
+            </div>
+        </section>
+
+        <section class="section-padding">
+            <div class="container">
+                <h2>Koleksi Kami</h2>
+                <div class="gallery-grid" id="fan-art-gallery-grid">
+                    <div class="gallery-item">
+                        <img src="harry fanart.jpg" alt="Hogwarts Castle at Night">
+                        <div class="overlay">
+                            <p>Artis: Harry Potter Fan</p>
+                            <p>Tema: Kastil Hogwarts di Malam Hari</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="quill.jpg" alt="Harry, Ron, Hermione">
+                        <div class="overlay">
+                            <p>Artis: Hermione's Quill</p>
+                            <p>Tema: Trio Emas</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="dumbeldor.jpg" alt="Dumbledore Portrait">
+                        <div class="overlay">
+                            <p>Artis: Dumbledore's Army</p>
+                            <p>Tema: Potret Dumbledore</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="owl.jpg" alt="Hedwig Flying">
+                        <div class="overlay">
+                            <p>Artis: Owl Post</p>
+                            <p>Tema: Hedwig Terbang</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="upload-section">
+                    <h2>Kirim Karya Seni Anda!</h2>
+                    <p>Kami sangat antusias melihat kreativitas para penggemar. Unggah karya seni Harry Potter Anda sendiri di sini dan bagikan dengan komunitas!</p>
+                    <form id="fanArtUploadForm" class="upload-form">
+                        <div class="form-group">
+                            <label for="artistName">Nama Artis:</label>
+                            <input type="text" id="artistName" name="artistName" placeholder="Nama Anda" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="artTitle">Judul Karya Seni:</label>
+                            <input type="text" id="artTitle" name="artTitle" placeholder="Judul karya Anda" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="artFile">Pilih File Gambar:</label>
+                            <input type="file" id="artFile" name="artFile" accept="image/jpeg,image/png,image/gif" required>
+                            <small>JPG, PNG, atau GIF. Maks 2MB.</small>
+                            <small id="artFile-error" class="error-message"></small>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" class="btn-primary">Unggah Karya Seni</button>
+                        </div>
+                        <p id="upload-message" class="hidden"></p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+           <p>© 2025 Harry Potter Fan Site. All rights reserved. <br>Disclaimer: This is a fan-made website made by Lusiyanti_221011450441.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

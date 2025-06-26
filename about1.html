@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us & Contact - Dunia Sihir Harry Potter</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="header-top">
+                    <a href="index.html" class="logo">Harry Potter</a>
+                    <div class="hamburger-menu">
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                    </div>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Beranda</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="discover.html">Discover</a></li>
+                    <li><a href="fact-files1.html">Fact Files</a></li>
+                    <li><a href="fan-art.html">Fan Art</a></li>
+                    <li><a href="about1.html" class="active">About Us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <h1>Tentang Kami & Kontak</h1>
+                <p>Pelajari lebih lanjut tentang situs kami dan bagaimana cara menghubungi kami.</p>
+            </div>
+        </section>
+
+        <section class="section-padding">
+            <div class="container">
+                <div class="about-section">
+                    <h2>Tentang Situs Ini</h2>
+                    <p>Situs penggemar Harry Potter ini dibuat dengan semangat dan dedikasi untuk merayakan dunia sihir yang diciptakan oleh J.K. Rowling. Kami bertujuan untuk menjadi sumber informasi yang komprehensif, mulai dari berita terbaru, kisah-kisah legendaris, dan fakta-fakta menakjubkan.</p>
+                    <p>Kami adalah komunitas penggemar yang terus berkembang dan berkomitmen untuk menjaga keajaiban dunia sihir tetap hidup. Semua konten di situs ini dibuat oleh penggemar untuk penggemar.</p>
+                    <p>Terima kasih telah mengunjungi dan menjadi bagian dari perjalanan ajaib ini!</p>
+                </div>
+
+                <div class="contact-section">
+                    <h2>Hubungi Kami</h2>
+                    <p class="text-center">Punya pertanyaan, saran, atau ingin berkontribusi? Jangan ragu untuk menghubungi kami melalui formulir di bawah ini.</p>
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Nama Lengkap</label>
+                            <input type="text" id="name" name="name" required>
+                            <small id="name-error" class="error-message"></small>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                            <small id="email-error" class="error-message"></small>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subjek</label>
+                            <input type="text" id="subject" name="subject" required>
+                            <small id="subject-error" class="error-message"></small>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Pesan Anda</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                            <small id="message-error" class="error-message"></small>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" class="btn-primary">Kirim Pesan</button>
+                        </div>
+                        <p id="form-submission-message" class="hidden"></p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2025 Harry Potter Fan Site. All rights reserved. <br>Disclaimer: This is a fan-made website made by Lusiyanti_221011450441.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
