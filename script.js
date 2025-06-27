@@ -8,22 +8,19 @@ document.addEventListener('DOMContentLoaded', () => {
         return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
     };
 
-const newsData = {
-    'fb-where-to-find-them': {
-        title: "Fantastic Beasts: Where To Find Them",
-        video: {
-            src: "where_to_find_them_trailer.mp4",
-            poster: "where to find them.jpg" 
+   const newsData = {
+        'fb-where-to-find-them': {
+            title: "Fantastic Beasts: Where To Find Them", // Diterjemahkan
+            image: "where to find them.jpg",
+            author: "Daily Prophet",
+            date: "20 Juni 2025",
+            category: "Film",
+            content: `
+                <p>Fantastic Beasts and Where to Find Them membawa kita ke era baru di Dunia Sihir J.K. Rowling, beberapa dekade sebelum Harry Potter dan setengah dunia jauhnya. Pada tahun 1926 di New York, sesuatu yang misterius meninggalkan jejak kehancuran, mengancam untuk mengungkap komunitas penyihir kepada No-Majs (sebutan Amerika untuk Muggle) fanatik yang berniat membasmi mereka. Dan penyihir gelap Gellert Grindelwald, setelah menyebabkan kekacauan di Eropa, kini tidak ditemukan di mana pun.</p>
+                <p>Magizoologist Newt Scamander tiba di kota mendekati akhir ekspedisi global untuk meneliti dan menyelamatkan makhluk ajaib, beberapa di antaranya tersimpan aman di dalam koper kulitnya yang biasa saja. No-Maj yang tidak curiga, Jacob Kowalski, secara tidak sengaja melepaskan beberapa makhluk Newt di kota – sebuah pelanggaran serius terhadap Statuta Kerahasiaan yang segera ditangani oleh mantan Auror Tina Goldstein, melihat kesempatan untuk mendapatkan kembali jabatannya. Namun, hal-hal berubah menjadi mengancam ketika Percival Graves, Direktur Keamanan Sihir yang misterius, menaruh kecurigaannya pada Newt… dan Tina.</p>
+                <p>Kini bersekutu, Newt dan Tina, bersama dengan saudara perempuan Tina, Queenie, dan Jacob, membentuk kelompok pahlawan tak terduga yang harus menemukan kembali makhluk Newt yang hilang. Taruhannya lebih tinggi dari yang pernah mereka bayangkan karena misi mereka menempatkan mereka dalam jalur tabrakan dengan kekuatan gelap yang dapat mendorong dunia sihir dan No-Maj ke ambang perang.</p>
+            `
         },
-        author: "Daily Prophet",
-        date: "20 Juni 2025",
-        category: "Film",
-        content: `
-            <p>Fantastic Beasts and Where to Find Them membawa kita ke era baru di Dunia Sihir J.K. Rowling, beberapa dekade sebelum Harry Potter dan setengah dunia jauhnya. Pada tahun 1926 di New York, sesuatu yang misterius meninggalkan jejak kehancuran, mengancam untuk mengungkap komunitas penyihir kepada No-Majs (sebutan Amerika untuk Muggle) fanatik yang berniat membasmi mereka. Dan penyihir gelap Gellert Grindelwald, setelah menyebabkan kekacauan di Eropa, kini tidak ditemukan di mana pun.</p>
-            <p>Magizoologist Newt Scamander tiba di kota mendekati akhir ekspedisi global untuk meneliti dan menyelamatkan makhluk ajaib, beberapa di antaranya tersimpan aman di dalam koper kulitnya yang biasa saja. No-Maj yang tidak curiga, Jacob Kowalski, secara tidak sengaja melepaskan beberapa makhluk Newt di kota – sebuah pelanggaran serius terhadap Statuta Kerahasiaan yang segera ditangani oleh mantan Auror Tina Goldstein, melihat kesempatan untuk mendapatkan kembali jabatannya. Namun, hal-hal berubah menjadi mengancam ketika Percival Graves, Direktur Keamanan Sihir yang misterius, menaruh kecurigaannya pada Newt… dan Tina.</p>
-            <p>Kini bersekutu, Newt dan Tina, bersama dengan saudara perempuan Tina, Queenie, dan Jacob, membentuk kelompok pahlawan tak terduga yang harus menemukan kembali makhluk Newt yang hilang. Taruhannya lebih tinggi dari yang pernah mereka bayangkan karena misi mereka menempatkan mereka dalam jalur tabrakan dengan kekuatan gelap yang dapat mendorong dunia sihir dan No-Maj ke ambang perang.</p>
-        `
-    },
         'casting-revealed': {
             title: "Pemeran Harry, Hermione, dan Ron Diumumkan untuk Serial Asli HBO Harry Potter",
             image: "harry hbo.jpg",
