@@ -8,13 +8,6 @@ document.addEventListener('DOMContentLoaded', () => {
         return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
     };
 
-
-    Tentu, untuk mengganti image menjadi video, Anda perlu mengubah properti image menjadi video di dalam objek newsData. Anda juga perlu menentukan format dan lokasi file video yang ingin Anda gunakan.
-
-Berikut adalah kode yang sudah dimodifikasi:
-
-JavaScript
-
 const newsData = {
     'fb-where-to-find-them': {
         title: "Fantastic Beasts: Where To Find Them",
