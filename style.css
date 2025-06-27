@@ -10,7 +10,7 @@
     --transition: 0.3s ease;
 }
 
-/* Base Styles */
+
 * {
     box-sizing: border-box;
 }
@@ -73,7 +73,7 @@ a:hover {
     display: none !important;
 }
 
-/* Buttons */
+
 .btn-primary, .btn-secondary {
     display: inline-block;
     padding: 10px 20px;
@@ -106,7 +106,7 @@ a:hover {
     color: var(--white);
 }
 
-/* Header & Navigation */
+
 header {
     background-color: var(--accent);
     color: var(--white);
@@ -189,7 +189,7 @@ header {
     margin: 4px 0;
 }
 
-/* Hero Sections */
+
 .hero-section, .page-hero {
     background: url('castle.jpg') no-repeat center center/cover;
     color: var(--white);
@@ -228,7 +228,7 @@ header {
     text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
 }
 
-/* Grids */
+
 .news-grid, .discover-grid, .link-grid, .gallery-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -236,7 +236,7 @@ header {
     margin-top: 30px;
 }
 
-/* Cards & Items */
+
 .news-card, .discover-card, .quick-link-card, .gallery-item {
     background-color: var(--white);
     border-radius: var(--radius);
@@ -282,15 +282,15 @@ header {
 
 .quick-link-card img {
     width: 100px;
-    height: 100px; /* Corrected typo from 1oopx to 100px */
-    object-fit: contain; /* Corrected typo from object-fixed to object-fit */
+    height: 100px; 
+    object-fit: contain; 
     margin-bottom: 50px;
     border-radius: 100%;
     background-color: var(--secondary);
     padding: 8px;
 }
 
-/* Detail Pages */
+
 .news-article-detail, .discover-article-detail {
     background-color: var(--white);
     padding: 30px;
@@ -300,9 +300,9 @@ header {
 }
 
 .news-article-detail img, .discover-article-detail img {
-    max-width: 800px; /* Use max-width for responsiveness */
+    max-width: 800px; 
     height: 400px;
-    width: 100%; /* Make image responsive */
+    width: 100%; 
     object-fit: cover;
     display: block;
     margin: 0 auto 20px auto;
@@ -316,7 +316,6 @@ header {
     margin-bottom: 15px;
 }
 
-/* Accordion */
 .accordion-item {
     background-color: var(--white);
     border: 1px solid #ddd;
@@ -368,7 +367,7 @@ header {
     margin-top: 10px;
 }
 
-/* Gallery & Upload */
+
 .gallery-item:hover .overlay {
     transform: translateY(0);
 }
@@ -381,7 +380,7 @@ header {
     margin-top: 30px;
 }
 
-/* About & Contact */
+
 .about-section, .contact-section {
     background-color: var(--white);
     padding: 30px;
@@ -391,7 +390,7 @@ header {
     margin-top: 20px;
 }
 
-/* Forms */
+
 .contact-form, .upload-form {
     max-width: 500px;
     margin: 0 auto;
@@ -433,7 +432,7 @@ header {
     color: #d9534f;
 }
 
-/* Footer */
+
 footer {
     background-color: var(--accent);
     color: var(--white);
@@ -443,7 +442,7 @@ footer {
     font-size: 0.85em;
 }
 
-/* Media Queries for Responsiveness */
+
 @media (max-width: 992px) {
     .navbar .container {
         flex-direction: column;
