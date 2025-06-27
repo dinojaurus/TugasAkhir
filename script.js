@@ -8,9 +8,10 @@ document.addEventListener('DOMContentLoaded', () => {
         return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
     };
 
-   const newsData = {
+
+    const newsData = {
         'fb-where-to-find-them': {
-            title: "Fantastic Beasts: Where To Find Them", // Diterjemahkan
+            title: "Fantastic Beasts: Where To Find Them", 
             image: "where to find them.jpg",
             author: "Daily Prophet",
             date: "20 Juni 2025",
@@ -187,7 +188,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     };
 
-
     const hamburger = document.querySelector('.hamburger-menu');
     const navLinks = document.querySelector('.nav-links');
     if (hamburger && navLinks) {
@@ -202,6 +202,7 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         });
     }
+
 
     const accordionContainer = document.querySelector('.accordion-container');
     if (accordionContainer) {
@@ -286,7 +287,6 @@ document.addEventListener('DOMContentLoaded', () => {
             document.getElementById('detail-headline').textContent = article.title;
             document.getElementById('detail-content').innerHTML = article.content;
         } else {
-            // Tangani kasus di mana artikel tidak ditemukan
             document.getElementById('detail-headline').textContent = "Artikel Tidak Ditemukan";
             document.getElementById('detail-content').innerHTML = "<p>Maaf, artikel yang Anda cari tidak dapat ditemukan.</p>";
             document.getElementById('detail-image').src = "castle.jpg";
