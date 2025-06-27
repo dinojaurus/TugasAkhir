@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
 	        <p>Fantastic Beasts and Where to Find Them membawa kita ke era baru di Dunia Sihir J.K. Rowling, beberapa dekade sebelum Harry Potter dan setengah dunia jauhnya. Pada tahun 1926 di New York, sesuatu yang misterius meninggalkan jejak kehancuran, mengancam untuk mengungkap komunitas penyihir kepada No-Majs (sebutan Amerika untuk Muggle) fanatik yang berniat membasmi mereka. Dan penyihir gelap Gellert Grindelwald, setelah menyebabkan kekacauan di Eropa, kini tidak ditemukan di mana pun.</p>
 	        <figure style="width:100%; max-width:800px; margin: 20px auto; text-align: center;">
 	            <video controls loop muted autoplay playsinline style="width:100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-	                <source src="fantastic-beasts-trailer.mp4" type="video/mp4">
+	                <source src="where_to_find_them_trailer.mp4" type="video/mp4">
 	                <source src="fantastic-beasts-trailer.webm" type="video/webm">
 	                Maaf, browser Anda tidak mendukung tag video.
 	            </video>
